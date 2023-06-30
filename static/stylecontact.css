@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Axeon';
+    src:url(/static/Font/Axeon.ttf), url(/static/Font/Clubbed.ttf);
+}
+@font-face {
+    font-family: 'Clubbed';
+    src:url(/static/Font/Clubbed.ttf);
+}
+*{
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Clubbed','Axeon';
+    font-style: normal;
+    color: rgb(0, 0, 0);
+   
+}
+#container{
+    background:url("../static/img/12.jpg") top center no-repeat;
+    background-size: cover;
+    padding-bottom: 187px;
+}
+
+div#logo img{
+    width: 100%;
+    height: 50px;
+    
+}
+div#logo{
+    position: absolute;
+    left: 6%;
+}
+#join{
+    position: relative;
+    left: 20%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000007d;   
+    padding: 30px 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;  
+}
+#navbar li a{
+    text-decoration: none;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+    color: #ffffff;
+}
+#navbar #join{
+    position: absolute;
+    left: 86%;
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+#navbar #join a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h1{
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+.myinput{
+    color: white;
+    background-color: #000000a8;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    width: 40%;
+    border: 2px solid #0000ff;
+    border-radius: 4px;
+}
+::placeholder{
+    color: white;
+}
+
+#submit{
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+#submit a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.footer p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(40, 41, 41);
+    color: white;
+}

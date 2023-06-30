@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Axeon';
+    src:url(/static/Font/Axeon.ttf), url(/static/Font/Clubbed.ttf);
+}
+@font-face {
+    font-family: 'Clubbed';
+    src:url(/static/Font/Clubbed.ttf);
+}
+*{
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Clubbed','Axeon';
+    font-style: normal;
+    color: white;
+   
+}
+#container{
+    background: url('../static/img/14.png') top center no-repeat;
+    background-size: cover;
+    background-color: black;
+    padding-bottom: 300px;
+}
+
+div#logo img{
+    width: 100%;
+    height: 50px;
+    
+}
+div#logo{
+    position: absolute;
+    left: 6%;
+}
+#join{
+    position: relative;
+    left: 20%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000007d;   
+    padding: 30px 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;  
+}
+#navbar li a{
+    text-decoration: none;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+    color: #ffffff;
+}
+#navbar #join{
+    position: absolute;
+    left: 86%;
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+#navbar #join a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Section 1 Start Here  */
+#sec1{
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#sec1 h1{
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+#sec1  p{
+    letter-spacing: 4px;
+    padding: 10px 260px;
+}
+
+#sec1 #learnmore{
+    display: block;
+    width: auto;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+#sec1 #learnmore a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Section 2 Start Here  */
+#sec2{
+    width: 100%;
+}
+
+#colsec{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+#colsec .col{
+    align-items: center;
+    width: 50%;
+    /* border: 2px solid rgb(44, 29, 128); */
+}
+#colsec .first .upper{
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px 40px 0px 40px;
+    
+}
+#colsec .first .lower{
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px 40px 20px 40px;  
+}
+#colsec .first h1{
+     line-height: 0.8;
+}
+#colsec .first span{
+    font-size: 40px;
+
+}
+#colsec .first p{
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 40px 0px 40px;
+    
+}
+#learnmoresec2{
+    display: block;
+    width: auto;
+    margin: 10px 40px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 2px;
+}
+#learnmoresec2 a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#colsec .second{
+    height: 475px;
+    background: #ffffff url("../static/img/5.jpg") no-repeat center center;
+    background-size: cover;
+    width: 50%;
+}
+
+/* Section 3 Start Here  */
+
+#sec3{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+}
+
+.col4{
+    
+    width: 25%;
+    /* border: 2px solid black; */
+    margin: 0px 0px;
+}
+.inner{
+    border:4px solid rgb(255, 255, 255);
+    height: 80%;
+    margin: 30px 20px 0px 20px;
+    text-align: center;
+}
+.inner h1{
+    margin: 70px 0px 10px 0px;
+    letter-spacing: 4px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.col41{
+    background: #ffffff url("../static/img/20.png") no-repeat bottom center;
+    background-size: cover;
+}
+.col42{
+    background: #ffffff url("../static/img/21.png") no-repeat bottom center;
+    background-size: cover;
+}
+.col43{
+    background: #ffffff url("../static/img/22.png") no-repeat bottom center;
+    background-size: cover;
+}
+.col44{
+    background: #ffffff url("../static/img/23.png") no-repeat center center;
+    background-size: cover;
+}
+#trail{
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+#trail a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Section 4 Start Here */
+#sec4{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+#sec4 .col{
+    align-items: center;
+    width: 40%;
+    /* border: 2px solid rgb(23, 24, 88); */
+}
+
+.textcol h1{
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 40px;
+    padding: 300px 40px 20px 40px;
+
+}
+
+.textcol p{
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: 500;
+    font-size: 22px;
+    padding: 10px 40px 0px 40px;
+   
+}
+
+#Getpass{
+    display: block;
+    width: auto;
+    margin: 40px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 2px;
+
+}
+#Getpass a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+}
+.imgcol{
+    width: 60%;
+}
+
+.imgcol img{
+    width: 150%;
+    margin-top: 200px;
+}
+#sec5 h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 20px;
+
+}
+#sec5 p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 5px 300px;
+    padding-bottom: 50px;
+}
+#sec5 img{
+    display: block;
+  margin: auto;
+  width: 80%;
+}
+#Enrollnow{
+    display: block;
+    width: auto;
+    margin: 40px auto;
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+#Enrollnow a{
+color: white;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: 'Clubbed','Axeon';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Footer Start Here  */
+
+.footer p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(40, 41, 41);
+    /* height: 100px; */
+}

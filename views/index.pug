@@ -1,0 +1,87 @@
+//- index.pug
+doctype html
+html
+  head
+    title Lost in Motion
+    style
+      include ../static/style.css
+      
+  body
+    div#container
+      nav#navbar 
+        div#logo 
+            img(src='../static/img/LostWhite.png', alt='Lost in Motion')
+        ul
+            li #[a(href = "/") Home] 
+            li #[a(href = "/") About]
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Sessions]
+            li #[a(href = "/") Contact Us]
+        button#join #[a(href = "/") Join Us]
+      section#sec1 
+        h1 Welcome To Lost in Motion
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis, repellendus aliquam voluptas aliquid nam assumenda tempore sint ipsum maiores est cumque! Vel?
+        button#learnmore #[a(href = "/") LEARN MORE]
+
+    //- Section 2 Start Here 
+    section#sec2 
+      div#colsec
+        div.first.col
+          h1.upper A DANCE SCHOOL FOR  
+            span(style="color: red")= 'BIGINNERS'
+          br
+          h1.lower THROUGH TO 
+            span(style="color: red")= 'PRE-PROFESSIONAL'
+            //- (style="color: red")=PRE-PROFESSIONAL
+          p Inspiration Dance Academy is a fun and friendly dance and music school situated in the heart of Jannali.
+            br
+            br
+            | Our goal is to provide a nurturing environment for beginner through to pre-professional dancers, inspiring the joy and passion of dance by fostering creative expressions.
+            br
+            br 
+            |Come and join in on the fun at Inspiration Dance Academy. We love watching our students grow, form friendships and gain more confidence through the performing arts. All while having a bunch of fun along the way.
+          button#learnmoresec2 #[a(href = "/") LEARN MORE]
+        div.second.col
+          
+    //- Section 3 Start Here 
+    section#sec3 
+      div.col4.col41
+        div.inner
+          h1 Traditional
+          button#trail #[a(href = "/") Free Trail]
+      div.col4.col42
+        div.inner
+          h1 Experts
+          button#trail #[a(href = "/") Free Trail]
+      div.col4.col43
+        div.inner
+          h1 Pre-School
+          button#trail #[a(href = "/") Free Trail]
+      div.col4.col44
+        div.inner
+          h1 Child
+          button#trail #[a(href = "/") Free Trail]
+    
+    //- Section 4 Start Here 
+    section#sec4
+      div.textcol.col
+        h1 Do You Wanna Join Us
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. In incidunt velit praesentium vel, fuga nostrum itaque voluptate cupiditate consectetur nobis nam exercitationem repellendus suscipit rem? Porro dolorem magni sed tenetur.
+        button#Getpass #[a(href = "/") Get Pass]
+      div.imgcol.col
+        img(src="../static/img/move1.png", alt="Color")
+    
+    //- Section 5 Start Here 
+    section#sec5 
+      h1 Our Trainees 
+      p Our Goal is to rovide a nurturing environment for beginner through to pre-professional dancers, inspiring the joy and passion of dance by fostering creative expressions.
+      img(src="../static/img/Banner.png", alt="Color")
+      button#Enrollnow #[a(href = "/") Enroll Now]
+
+
+    //- Footer Start Here 
+    footer.footer
+      p Copyright &copy; Lost in Motion 2022 | All Rights Reserved.
+
+    script
+      include ../static/index.js

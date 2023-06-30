@@ -1,0 +1,26 @@
+extends base.pug 
+block scripts 
+      scripts(src="../static/index.js") 
+block style 
+    style
+      include ../static/stylecontact.css 
+block content 
+    div#container
+        nav#navbar 
+            div#logo 
+                img(src='../static/img/LostWhite.png', alt='Lost in Motion')
+            ul
+                li #[a(href = "/") Home] 
+                li #[a(href = "/") About]
+                li #[a(href = "/") Services]
+                li #[a(href = "/") Sessions]
+                li #[a(href = "/contact") Contact Us]
+            button#join #[a(href = "/") Join Us]
+        h1 Contact Us.
+        form(action="/contact.pug", method="post", class="myForm") 
+            input(type="text", class="myinput", name="name" ,  placeholder="Enter Your Name")
+            input(type="email",class="myinput", name="email" , placeholder="Enter Your Email")
+            input(type="text",class="myinput", name="phone" , placeholder="Enter Your Phone.No")
+            input(type="text",class="myinput", name="subject", placeholder="Enter Your Subject")
+            textarea(type="textarea",class="myinput", name="textarea" rows="4" cols="50", placeholder="Enter Your Message")
+            button#submit #[a(href = "/") Submit]
